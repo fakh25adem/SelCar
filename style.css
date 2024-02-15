@@ -1,5 +1,5 @@
 
-/*Google Fonts*/
+/* 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 *{
@@ -15,7 +15,7 @@
 
 /*Variables*/
 
-:root{
+/* :root{
     --main-color:#d90429;
     --text-color:#020102;
     --bg-color:#fff;
@@ -24,9 +24,9 @@
 html::-webkit-scrollbar{
     width: 0.5rem;
     background: transparent;
-}
+} */
 
-html::-webkit-scrollbar-thumb{
+/* html::-webkit-scrollbar-thumb{
     border-radius: 5rem;
     background: var(--text-color);
 }
@@ -41,8 +41,8 @@ img{
 
 body{
     color: var(--text-color);
-}
-
+} */
+/* 
 .container{
     max-width: 1068px;
     margin-left: auto;
@@ -66,8 +66,8 @@ header.shadow{
 
 header.shadow #search-icon{
     color: var(--text-color);
-}
-.nav{
+} */
+/* .nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -141,7 +141,7 @@ header.shadow #search-icon{
     background: transparent;
     font-size: 1rem;
 
-}
+}  */
 .banner{
     margin-top: 100px;
     display: flex;
@@ -221,7 +221,7 @@ button {
 .contact{
     position: relative;
     background-color: #ffffff;
-    background-image: url(bmwserie3.png);
+    background-image: url(img/bmwserie3.png);
     background-position:center;
     background-repeat: no-repeat;
 }
@@ -239,13 +239,13 @@ button {
     font-family: var(--ff-primary);
 }
 .home{
-    max-width: 1300px;
+  
     margin: auto;
-    width: 100%;
+    width: 1355px;
     min-height: 640px;
     display: flex;
     align-items: center;
-    background: url(Background-home.png);
+    background: url(img/Background-home.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
@@ -282,7 +282,7 @@ button {
 
 }
 
-.heading{
+/* .heading{
     text-align: center;
 }
 
@@ -294,7 +294,7 @@ button {
 .heading p{
     font-size: 0.938rem;
     font-weight: 300;
-}
+} */
 
 
 .cars-container{
@@ -375,7 +375,7 @@ button {
     margin: 0.5rem 0 1.4rem;
 }
 
-
+/* 
 .parts-container{
     display: flex;
     flex-wrap: wrap;
@@ -436,10 +436,10 @@ button {
 .parts-container .box .details:hover{
     color: var(--main-color);
     text-decoration: underline;
-}
+} */
 
 
-.blog-container{
+/* .blog-container{
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -487,9 +487,9 @@ button {
     column-gap: 0.7rem;
     transition: 0.4s;
 
-}
+} */
 
-.footer{
+/* .footer{
     background: var(--text-color);
     color: #f6f6f6;
     border-top: 2px solid var(--main-color);
@@ -564,7 +564,7 @@ button {
 
 .copyright p:hover{
     color: var(--main-color);
-}
+} */
 
 
-/* Making Responsive */
+
