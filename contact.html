@@ -5,33 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Full Cars</title>
-    <!--Link To Css-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="contact.css">
-
-    <!--Box Icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" href="./img/logoo.png" />
+    <script src="https://kit.fontawesome.com/c32adfdcda.js" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
-     <!--Home section-->
-     <section class="contact" id="contact">
-        <div class="contact-text">
-            <h1>Contact Us</h1>
-           
-        </div>
+   
 
-    </section>
-    <!--Navbar-->
     <header>
-        <!--Nav Container-->
+       
         <div class="nav container">
-            <!--Menu Icon-->
             <i class='bx bx-menu' id="menu-icon"></i>
-            <!--Logo-->
             <a href="./home.html" class="logo">Full<span>Cars</span></a>
-            <!--Navbar List-->
             <ul class="navbar">
                 <li> <a href="./home.html" >Home</a></li>
                 <li >
@@ -49,78 +39,125 @@
                 <input type="search" name="" id="" placeholder="Search here...">
             </div>
         </div>
-    </header>
-    <section class="banner">
-        <div class="">
-            <h3>Contact Us</h3>
-        <form action="#">
+    </header> 
+    
+    <section class="contact" id="contact">
+       <div class="contact-text">
+           <h1>Contact <span>Us</span></h1>            
+       </div>
+  
+   </section>
+    <main>
+    
+        <div class="section-header">
+        
+        
+        <div class="container">
+          <div class="row">
+            
             <div class="contact-info">
-                <p>Numéro de téléphone:</p>
-                <a href="tel:0543569324">0543569324</a>
-                <p>Email:</p>
-                <a href="mailto:EasyCar.Service@gmail.com">EasyCar.Service@gmail.com</a>
-                <p>Adresse:</p>
-                <p>2693 Chestut Street, Florida, USA</p>
-            </div>
-            <div class="formulaire-champs">
-                <label for="nom">Nom:</label>
-                <input type="text" id="nom" name="nom" required>
-                <label for="prenom">Prénom:</label>
-                <input type="text" id="prenom" name="prenom" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="sujet">Sujet:</label>
-                <input type="text" id="sujet" name="sujet" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Envoyer</button>
-            </div>
-        </form>
-    </div>
-
-    </section>
-    <section class="footer">
-        <div class="footer-container container">
-            <div class="footer-box">
-                <a href="#" class="logo">Full<span>Cars</span></a>
-                <div class="social">
-                    <a href="#"><i class='bx bxl-facebook'></i></a>
-                    <a href="#"><i class='bx bxl-twitter'></i></a>
-                    <a href="#"><i class='bx bxl-instagram'></i></a>
-                    <a href="#"><i class='bx bxl-youtube'></i></a>
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-home"></i>
                 </div>
+                
+                <div class="contact-info-content">
+                  <h4>Address</h4>
+                  <p>Morneg , New medina<br/> 
+                </div>
+              </div>
+              
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                
+                <div class="contact-info-content">
+                  <h4>Phone Number </h4>
+                  <p>92 323 062 , 90 281 103</p>
+                </div>
+              </div>
+              
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                
+                <div class="contact-info-content">
+                  <h4>Email</h4>
+                 <p>OumaAdem@email.fr</p>
+                </div>
+              </div>
             </div>
-            <div class="footer-box">
-                <h3>Pages</h3>
-                <a href="#">Home</a>
-                <a href="#">Cars</a>
-                <a href="#">About</a>
-                <a href="#">Parts</a>
-
+            
+            <div class="contact-form">
+              <form action="" id="contact-form">
+                <h2>Send Message</h2>
+                <div class="input-box">
+                  <input type="text" required="true" name="">
+                  <span>Full Name</span>
+                </div>
+                
+                <div class="input-box">
+                  <input type="email" required="true" name="">
+                  <span>Email</span>
+                </div>
+                
+                <div class="input-box">
+                  <textarea required="true" name=""></textarea>
+                  <span>Type your Message...</span>
+                </div>
+                
+                <div class="input-box">
+                  <input type="submit" value="Send" name="">
+                </div>
+              </form>
             </div>
-
-            <div class="footer-box">
-                <a></a>
-                <a></a>
-                <a></a>
-                <a href="#">Our BLOG</a>
-                <a href="#">Reservation</a>
-                <a href="#">Contact Us</a>
-            </div>
-
-            <div class="footer-box">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.7948905978317!2d10.190118699999999!3d36.897836700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd34cc25bd5aff%3A0x495e852ae57f3ff5!2sTEK-UP%20University!5e0!3m2!1sen!2stn!4v1698848425734!5m2!1sen!2stn"
-                  width="90%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
           </div>
         </div>
-    </section>
-
-    <div class="copyright">
+      </section>
+        </main>
+        <section class="footer">
+            <div class="footer-container container">
+                <div class="footer-box">
+                    <a href="#" class="logo">Full<span>Cars</span></a>
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h3>Pages</h3>
+                    <a href="#">Home</a>
+                    <a href="#">Cars</a>
+                    <a href="#">About</a>
+                    <a href="#">Parts</a>
+    
+                </div>
+    
+                <div class="footer-box">
+                    <a></a>
+                    <a></a>
+                    <a></a>
+                    <a href="#">Our BLOG</a>
+                    <a href="#">Reservation</a>
+                    <a href="#">Contact Us</a>
+                </div>
+    
+                <div class="footer-box">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.7948905978317!2d10.190118699999999!3d36.897836700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd34cc25bd5aff%3A0x495e852ae57f3ff5!2sTEK-UP%20University!5e0!3m2!1sen!2stn!4v1698848425734!5m2!1sen!2stn"
+                      width="90%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+        </section>
+    
+       <div class="copyright">
         <p>&#169; Ouma & Adem All Right Reserved</p>
-    </div>
-
     
 </body>
 </html>
