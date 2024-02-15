@@ -221,10 +221,9 @@ button {
 .contact{
     position: relative;
     background-color: #ffffff;
-    background-image: url(img/bmwserie3.png);
+    background-image: url(bmwserie3.png);
     background-position:center;
     background-repeat: no-repeat;
-    image-si: 180px;
 }
 .contact-text {
     padding: 15em;
@@ -246,7 +245,7 @@ button {
     min-height: 640px;
     display: flex;
     align-items: center;
-    background: url(img/Background-home.png);
+    background: url(Background-home.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
